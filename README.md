@@ -5,7 +5,7 @@
 ####3.支持点击，圆角，添加子节点等功能
 ####4.特别处理安卓环境下同时设置了默认图片和下载图片后，点击时会显示默认图片的问题
 
-###＃#支持iOS 7.0及以上。
+#####支持安卓及iOS 7.0及以上。
 
 ##如何安装
 ####npm install https://github.com/MonkeyKingPlus/react-native-image-view.git
