@@ -21,9 +21,9 @@ npm install https://github.com/MonkeyKingPlus/react-native-image-view.git
 
 
 ```javascript
-     <MKPLoadImageView
+	<MKPLoadImageView
                 imageSource={{uri:"http://imga1.pic21.com/bizhi/140116/06682/01.jpg"}}
                 style={{margin:100,width:100,height:100,borderRadius:50,overflow:"hidden"}}
                 clickHandle={()=>{}}>
-            </MKPLoadImageView>
+	</MKPLoadImageView>
 ```
