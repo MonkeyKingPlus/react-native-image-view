@@ -27,3 +27,10 @@ npm install https://github.com/MonkeyKingPlus/react-native-image-view.git
                 clickHandle={()=>{}}>
 	</MKPLoadImageView>
 ```
+
+##属性说明
+* backImageSource(可选)：背景图，可选，建议使用本地图片 ,
+* imageSource(可选)：图片资源，网络图片支持显示进度,
+* style(可选)：样式,
+* clickHandle(可选)：点击方法，实现后会添加点击效果，没实现则不会有点击效果,
+* showLoading(可选)：true，显示下载动画，false不显示下载动画，默认为true,
