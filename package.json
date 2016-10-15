@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/MonkeyKingPlus/react-native-image-view/issues"
   },
-  "homepage": "https://github.com/MonkeyKingPlus/react-native-image-view#readme"
+  "homepage": "https://github.com/MonkeyKingPlus/react-native-image-view#readme",
+  "dependencies": {
+    "react-native-fs": "^2.0.1-rc.2"
+  }
 }
