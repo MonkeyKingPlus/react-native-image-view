@@ -52,7 +52,6 @@ Any [`Image` property](http://facebook.github.io/react-native/docs/image.html) a
 
 ####exmaple1
 ![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/1.gif)
-
 ```
 <MKPLoadImageView
 defaultImageSource = {require('./assets/default.png')}
