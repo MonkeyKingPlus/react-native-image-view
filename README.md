@@ -85,7 +85,7 @@ hiddenProgress={true}/>
 
 ####exmaple4
 ![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/5.gif)
-
+```
 <MKPLoadImageView
 defaultImageSource = {require('./assets/default.png')}
 imageSource={{uri:'http://imga1.pic21.com/bizhi/140116/06682/01.jpg'}}
