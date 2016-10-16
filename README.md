@@ -49,7 +49,51 @@ Any [`Image` property](http://facebook.github.io/react-native/docs/image.html) a
 
 
 ## Demo
+
+####exmaple1
 ![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/1.gif)
+
+```
+<MKPLoadImageView
+defaultImageSource = {require('./assets/default.png')}
+imageSource={{uri:'http://imga1.pic21.com/bizhi/140116/06682/01.jpg'}}
+style={{margin:100,width:200,height:200,borderRadius:100,overflow:"hidden"}}
+indicatorProps={{color:'red',style:{margin:10,flex:1}}}/>
+```
+
+####exmaple2
+![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/2.gif)
+```
+<MKPLoadImageView
+defaultImageSource = {require('./assets/default.png')}
+imageSource={{uri:'http://imga1.pic21.com/bizhi/140116/06682/01.jpg'}}
+style={{margin:100,width:200,height:200,borderRadius:100,overflow:"hidden"}}
+indicatorProps={{color:'red',style:{margin:10,flex:1}}}
+indicatorType="line"
+onPress={()=>{}}/>
+```
+
+####exmaple3
+![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/4.gif)
+```
+<MKPLoadImageView
+defaultImageSource = {require('./assets/default.png')}
+imageSource={{uri:'http://imga1.pic21.com/bizhi/140116/06682/01.jpg'}}
+style={{margin:100,width:200,height:200,borderRadius:100,overflow:"hidden"}}
+hiddenProgress={true}/>
+```
+
+####exmaple4
+![image-progress-demo](https://github.com/kunkunbobo/Test/blob/master/Asset/5.gif)
+
+<MKPLoadImageView
+defaultImageSource = {require('./assets/default.png')}
+imageSource={{uri:'http://imga1.pic21.com/bizhi/140116/06682/01.jpg'}}
+style={{margin:100,width:200,height:200,borderRadius:100,overflow:"hidden"}}
+hiddenProgress={true}
+onPress={()=>{}}/>
+```
+
 
 
 
