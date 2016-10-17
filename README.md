@@ -36,7 +36,7 @@ Any [`Image` property](http://facebook.github.io/react-native/docs/image.html) a
 
 | 属性 | 描述 | 默认值 |
 |---|---|---|
-|**`imageSource`**|(必选） 图片资源,支持本地图片和网络图片|{uri:`imageUrl`}／require(`imagePath`)|
+|**`imageSource`**|(可选） 图片资源,支持本地图片和网络图片|{uri:`imageUrl`}／require(`imagePath`)|
 |**`backImageSource`**|(可选）背景图，可选，建议使用本地图片|*None*|
 |**`style`**|(可选) 样式|*style={{width:200,height:200}}*|
 |**`onPress`**|(可选) 点击事件|*None*|
