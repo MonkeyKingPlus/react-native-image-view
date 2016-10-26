@@ -16,7 +16,7 @@
 
 ##如何安装
 ```bash
-npm install https://github.com/MonkeyKingPlus/react-native-image-view.git --save
+npm install mkp-react-native-image-view --save
 ```
 ##依赖
 - [url-parse](https://github.com/unshiftio/url-parse) URL处理
@@ -40,8 +40,8 @@ Any [`Image` property](http://facebook.github.io/react-native/docs/image.html) a
 
 | 属性 | 描述 | 默认值 |
 |---|---|---|
-|**`imageSource`**|(可选） 图片资源,支持本地图片和网络图片|{uri:`imageUrl`}／require(`imagePath`)|
-|**`backImageSource`**|(可选）背景图，可选，建议使用本地图片|*None*|
+|**`imageSource`**|(可选） 图片资源,支持本地图片和网络图片，只有设置此属性才会显示下载进度|{uri:`imageUrl`}／require(`imagePath`)|
+|**`backImageSource`**|(可选）背景图，可选，持本地图片和网络图片,建议使用本地图片,只设置该属性不会显示下载进度|*None*|
 |**`style`**|(可选) 样式|*style={{width:200,height:200}}*|
 |**`onPress`**|(可选) 点击事件|*None*|
 |**`customIndicator`**|(可选) 自定义图片下载进度指示器|*None*|
