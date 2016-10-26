@@ -18,6 +18,10 @@
 ```bash
 npm install https://github.com/MonkeyKingPlus/react-native-image-view.git --save
 ```
+##依赖
+- [url-parse](https://github.com/unshiftio/url-parse) URL处理
+- [crypto-js](https://github.com/brix/crypto-js) md5
+- [react-native-fs](https://github.com/johanneslumpe/react-native-fs) 文件系统
 
 ##如何使用
 ```javascript
